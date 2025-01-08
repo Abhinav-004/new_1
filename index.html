@@ -1,0 +1,50 @@
+<html>
+    <head>
+        <title>form and input</title>
+    </head>
+    <body>
+        <h1>Sign Up</h1>
+        <form action="">
+            <div>
+            <label for="username">Username</label>
+            <input type="text" id="username" name="username" placeholder="write your username">
+            </div>
+            <! if we dont write the value of for and id same then we we click on the username on the webpage it will not get clicked !>
+            <div>
+                <label for="email">Email</label>
+                <input type="text" id="email" name="email" placeholder="write you email">
+
+            </div>
+            <div>
+                <label for="password">Password</label>
+                <input type="password" id="password" name="password" placeholder="write your password"><img src="eye.png" width="15">
+            </div>
+            <div>
+                <label for="confirm">Confirm Password</label>
+                <input type="password" id="confirm" name="confirm" placeholder="retype your password">
+            </div>
+            <div>
+                
+                <input type="checkbox" id="tnc" name="tnc">
+                <label for="tnc">I accept your<b> Terms and Conditions</b></label>
+
+            </div>
+            <div>
+                
+                <br><button type="submit">Sign Up</button>  <button type="reset">Reset </button>
+                
+            </div>
+            
+            <div>
+                <br>
+                
+                <p>Already have an account </p>
+                
+            </div>
+            <div>
+                
+            </div>
+        </form>
+        <form action="http://127.0.0.1:3000/signin.html" method="get" ><input type="submit" value="Login"></form>
+    </body>
+</html>
